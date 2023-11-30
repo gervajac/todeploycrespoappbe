@@ -2,11 +2,11 @@
     "name": "concursoappbe",
     "version": "1.0.0",
     "description": "Descripción de tu aplicación",
-    "main": "dist/index.js",
+    "main": "index.js",
     "scripts": {
       "start": "node dist/index.js",
       "dev": "nodemon src/index.ts",
-      "build": "Remove-Item -Recurse -Force dist ; tsc && mkdir dist && cp -r src/*.js dist/"
+      "build": "tsc"
     },
     "keywords": ["palabras clave, separadas, por, comas"],
     "author": "Tu Nombre",
